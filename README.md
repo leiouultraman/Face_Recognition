@@ -37,5 +37,5 @@ Then place them in the ​model​ folder.
   cv2.imshow("Detected Faces", img_with_boxes)
   cv2.waitKey(0)
   cv2.destroyAllWindows()
-  '''
-![image]()
+  ```
+![image](https://github.com/leiouultraman/Face_Recognition/blob/main/img/111.jpg)
