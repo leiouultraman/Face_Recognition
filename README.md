@@ -18,7 +18,7 @@ Then place them in the ​model​ folder.
   pip install ultralytics
   pip install Flask
  ```
-2.Face_detection
+2.Face_detection  
   face_detection.py
   ```
   import cv2
