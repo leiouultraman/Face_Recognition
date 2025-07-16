@@ -368,9 +368,8 @@ import torch
 
 
 def get_torch_home():
-    # 使用固定的路径 'model' 文件夹来存储模型文件
-    model_dir = os.path.join(os.getcwd(), 'model')  # os.getcwd() 获取当前工作目录
-    os.makedirs(model_dir, exist_ok=True)  # 如果 model 文件夹不存在，创建它
+    model_dir = os.path.join(os.getcwd(), 'model')
+    os.makedirs(model_dir, exist_ok=True)
     return model_dir
 
 
@@ -391,7 +390,7 @@ def load_weights(mdl, name):
     else:
         raise ValueError('Pretrained models only exist for "vggface2" and "casia-webface"')
 
-    model_dir = get_torch_home()  # 使用新的 model 文件夹路径
+    model_dir = get_torch_home()
     cached_file = os.path.join(model_dir, os.path.basename(path))
 
     if not os.path.exists(cached_file):
