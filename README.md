@@ -19,7 +19,10 @@ Then place them in the ​model​ folder.
   pip install Flask
  ```
 2.Face_detection  
-  face_detection.py
+  ```
+  python face_detection.py
+  ```
+  or  
   ```
   import cv2
   from ultralytics import YOLO
