@@ -1,7 +1,8 @@
 # Face_Recognition-API
 This repository is based on https://github.com/timesler/facenet-pytorch, https://github.com/akanametov/yolo-face and https://github.com/serengil/deepface, using PyTorch, allowing for easy GPU acceleration.
 # Download Pretrained models
-Download the pretrained models from the following link. https://github.com/akanametov/yolo-face.https://github.com/timesler/facenet-pytorch/releases/download/v2.2.9/20180402-114759-vggface2.pt or https://github.com/timesler/facenet-pytorch/releases/download/v2.2.9/20180408-102900-casia-webface.pt.And place them in the ​model​ folder.
+Download the pretrained models from the following link. YOLO:https://github.com/akanametov/yolo-face. 
+FaceNet:https://github.com/timesler/facenet-pytorch/releases/download/v2.2.9/20180402-114759-vggface2.pt or https://github.com/timesler/facenet-pytorch/releases/download/v2.2.9/20180408-102900-casia-webface.pt.And place them in the ​model​ folder.
 # Quick start
 1.install:
   ```
