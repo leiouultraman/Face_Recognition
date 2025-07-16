@@ -61,11 +61,11 @@ Then place them in the ​model​ folder.
   from inception_resnet_v1 import InceptionResnetV1
   from pathlib import Path
   device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
+  # Choose yolo_face model
   model = YOLO('model/yolov11n-face.pt')
-
+  # Choose facenet model (vggface2 or casia-webface)
   resnet = InceptionResnetV1(pretrained='vggface2', device=device).eval()
-
+  # Choose folder(Store personnel photos, naming them with the corresponding individuals' names.)
   input_folder = 'star_train'
   face_encodings = {}
   if os.path.exists(f'{input_folder}/face_encodings.pkl'):
