@@ -1,4 +1,4 @@
-# Face_Recognition-API
+# Face_Recognition
 This repository is based on  
 facenet-pytorch：https://github.com/timesler/facenet-pytorch  
 yolo-face：https://github.com/akanametov/yolo-face  
