@@ -16,6 +16,7 @@ This repository is based on https://github.com/timesler/facenet-pytorch, https:/
   import torch
   device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
   model = YOLO('model/yolov11n-face.pt')
+  # Choose a picture
   img_path = 'star_test/111.jpg'
   face_locations_results = model.predict(source=img_path, task='detect', save=False, device=device, imgsz=480, verbose=True)
   img = cv2.imread(img_path)
