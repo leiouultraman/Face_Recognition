@@ -216,4 +216,4 @@ Then place them in the ​model​ folder.
   ```
 ![image](https://github.com/leiouultraman/Face_Recognition/blob/main/img/222.jpg)
 # LFW Datasets
-Since I am not very familiar with the LFW dataset, I processed it and ultimately obtained a training dataset of 1,244 images and a testing dataset of 4,633 images.
+Since I am not very familiar with the LFW dataset, I processed it and ultimately obtained a training dataset of 1,244 images and a testing dataset of 4,633 images.Link:https://drive.google.com/drive/folders/1jXIUCdB9d1wK6IOrJPjJOsPMv51DGx3x?usp=drive_link
